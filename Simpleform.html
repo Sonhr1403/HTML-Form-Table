@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+</head>
+<style>
+  body{
+      background-color: aqua;
+  }
+  h1 {
+    background-color: red;
+      text-align: center;
+      vertical-align: center;
+      font-family: Arial, sans-serif;
+      color: white;
+  }
+  table{
+      font-family: Arial, sans-serif;
+      color: coral;
+      background-color: white;
+  }
+  .wufoo{
+      color: blue;
+  }
+</style>
+<body>
+<form action="https://demo.codegym.vn/6/registration_form/register.php" method="post"></form>
+
+  <table align="center" style="width: 90%; height: 90%">
+  <tr>
+      <td colspan="2" valign="top"><h1>SỞ THÍCH CỦA BẠN</h1></td>
+  </tr>
+  <tr>
+      <td align="right" class="wufoo"> Họ và tên </td>
+      <td> <input type="text" name="yourname"/> </td>
+  </tr>
+  <tr>
+      <td align="right" class="wufoo">Email</td>
+      <td> <input type="text" name="email" style="width: 100px"> </td>
+  </tr>
+      <td valign="top", align="right" class="wufoo">Sở thích</td>
+      <td>
+          <table>
+              <tr>
+                  <td><input type="checkbox" name="hobby" style="width: 20px">Thể thao</td>
+                  <td><input type="checkbox" name="hobby" style="width: 20px">Âm nhạc</td>
+                  <td><input type="checkbox" name="hobby" style="width: 20px">Đọc sách</td>
+              </tr>
+              <tr>
+                  <td><input type="checkbox" name="hobby" style="width: 20px">Lướt web</td>
+                  <td><input type="checkbox" name="hobby" style="width: 20px">Chơi game</td>
+                  <td><input type="checkbox" name="hobby" style="width: 20px">Điện ảnh</td>
+              </tr>
+              <tr>
+                  <td><input type="checkbox" name="hobby" style="width: 20px">Du lịch</td>
+              </tr>
+              <tr>
+                  <td><input type="submit" name="submit" value="Gửi thông tin" align="center"/></td>
+                  <td><input type="reset" name="reset" value="Nhập lại" align="center"/></td>
+              </tr>
+          </table>
+      </td>
+  </table>
+</body>
+</html>
