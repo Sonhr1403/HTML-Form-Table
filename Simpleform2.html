@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form 2</title>
+</head>
+<style>
+  body{
+    background-color: khaki;
+  }
+  h2{
+    color: blue;
+    background-color: aquamarine;
+  }
+</style>
+<body>
+<form action="https://demo.codegym.vn/6/registration_form/register.php" method="post"/>
+<h2>Đăng ký học viên</h2>
+<table>
+  <tr>
+    <td>Họ và tên&emsp;&emsp;&emsp;</td>
+    <td><input type="text" name="yourname"></td>
+  </tr>
+  <tr>
+    <td>Ngày sinh</td>
+    <td><input type="text" name="yourbirthday" style="width: 100px"></td>
+  </tr>
+  <tr>
+    <td>Giới tính</td>
+    <td><input type="radio" name="yourgender">Nam
+    <input type="radio" name="yourgender">Nữ</td>
+  </tr>
+  <tr>
+    <td valign="top">Địa chỉ</td>
+    <td><input type="text" name="youraddress" style="width: 150px;height: 45px"></td>
+  </tr>
+  <tr>
+    <td>Lớp</td>
+    <td>
+      <select style="width: 90px">
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="DH">Đại học</option>
+        <option value="DL">Đi làm</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td><input type="text" name="email" style="width: 120px"></td>
+  </tr>
+  <tr>
+    <td>Điện thoại</td>
+    <td><input type="text" name="phone" style="width: 120px"></td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td><input type="submit" name="submit" value="Đăng ký">
+    <input type="reset" name="reset" value="Nhập lại"></td>
+  </tr>
+</table>
+</body>
+</html>
